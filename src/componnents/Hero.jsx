@@ -5,6 +5,7 @@ import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
+import shotcretecar from "../assets/shotcretecar.png";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -21,29 +22,27 @@ const Hero = () => {
           className="relative z-1 max-w-[65rem]
         mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6rem]"
         >
-          <h1 className="h1 mb-6">
-            Latihan Membuat Website
-            <p>
-              <span className="inline-block relative">
-                Daniel{" "}
-                <img
-                  src={curve}
-                  className="absolute top-full left-0
-                w-full xl:-mt-2"
-                  width={624}
-                  height={28}
-                  alt="Curve"
-                />
-              </span>
-            </p>
-          </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+          <span className="inline-block mt-6 text-5xl relative">
+            ADHI FORTUNA DIVINA{" "}
+            <img
+              src={curve}
+              className="absolute top-full left-0
+                w-full xl:mt-1"
+              width={624}
+              height={28}
+              alt="Curve"
+            />
+          </span>
+          <h1 className="h1 mt-1 mb-6">{``}</h1>
+
+          <p className="body-1 mt-16 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             {" "}
-            Membuat website merupakan kegiatan yang menyenangkan. Kita bisa
-            menuangkan kreasi dan ide kita dengan bebas disini.
+            Mitra konstruksi andal untuk proyek sukses Anda! Dengan layanan
+            lengkap, kualitas unggul, dan komitmen pada inovasi, keamanan, serta
+            efisiensi. Bersama kami, bangun masa depan bisnis konstruksi Anda!
           </p>
           <Button href="/pricing" white>
-            Get Started
+            Contact Us
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -56,9 +55,9 @@ const Hero = () => {
            md:aspect-[688/490] lg:aspect-[1024/490]"
               >
                 <img
-                  src={robot}
-                  className="w-full scale-[1.7]
-                  translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
+                  src={shotcretecar}
+                  className="w-full scale-[1]
+                  translate-y-[1%] md:scale-[1] md:-translate-y-[30%] lg:-translate-y-[30%]"
                   width={1024}
                   height={490}
                   alt="AI"

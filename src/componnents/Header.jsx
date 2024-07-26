@@ -2,11 +2,14 @@ import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { brainwave } from "../assets";
+
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import { check } from "../assets";
+import afdwhite from "../assets/afdwhite.svg";
 
 const Header = () => {
   const pathname = useLocation();
@@ -30,17 +33,21 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 
+      className={`fixed top-0 left-0 w-full z-2 
         border-b border-n-8 lg:bg-n-8/90 lg:backdrop-blur-sm ${
           openNavigation ? "bg-n-8" : "bg-n8/90 backdrop-blur-sm"
         }`}
     >
       <div
-        className="flex items-center px-5 lg:px-7.5
-        xl:px-10 max-lg:py-4"
+        className="flex items-center px-4 lg:px-4
+        xl:px-4 max-lg:py-4"
       >
-        <a className="block w-[12rem] xl;mr-8" href="#hero">
-          <img src={brainwave} width={190} height={40} alt="Brainwave" />
+        <a className="block w-[6rem] xl;mr-4" href="#hero">
+          <img src={afdwhite} width={100} height={50} alt="afdwhite" />
+        </a>
+
+        <a className="  relative mr-8  text-2xl mx-1 text-n-1 transition-color hover:text-n-1 lg:block">
+          ADHI FORTUNA DIVINA
         </a>
 
         <nav
@@ -74,7 +81,7 @@ const Header = () => {
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-color hover:text-n-1 lg:block"
         >
-          New Account
+          Contact
         </a>
         <Button className="hidden lg:flex" href="#login">
           Sign in
