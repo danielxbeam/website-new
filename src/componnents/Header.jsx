@@ -45,17 +45,15 @@ const Header = () => {
         <a className="block w-[6rem] xl;mr-4" href="#hero">
           <img src={afdwhite} width={100} height={50} alt="afdwhite" />
         </a>
-
-        <a className="  relative mr-8  text-2xl mx-1 text-n-1 transition-color hover:text-n-1 lg:block">
+        <a className="  relative mr-8  text-1xl mx-5 text-n-1 transition-color hover:text-n-1 lg:block">
           ADHI FORTUNA DIVINA
         </a>
-
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:mx-auto lg:flex lg:bg-transparent`}
         >
-          <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+          <div className="relative z-2 flex flex-col items-center justify-center m-auto  lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
@@ -86,7 +84,6 @@ const Header = () => {
         <Button className="hidden lg:flex" href="#login">
           Sign in
         </Button>
-
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
