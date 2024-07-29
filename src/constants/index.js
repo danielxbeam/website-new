@@ -243,6 +243,9 @@ export const pricing = [
 
 export const benefits = [
   {
+    images: {
+      unoptimized: true,
+    },
     id: "0",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
