@@ -18,7 +18,7 @@ const Benefits = () => {
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               key={item.id}
             >
-              <ReactSVG
+              <img
                 src={item.backgroundUrl}
                 className="absolute top-0 left-0 w-full h-full"
                 style={{ pointerEvents: "none" }}
