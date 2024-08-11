@@ -57,7 +57,7 @@ import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
-import benefitCard1 from "./benefits/card1.svg";
+import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
@@ -74,8 +74,6 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-
-import card1 from "./benefits/card1.svg";
 
 export {
   brainwave,
@@ -146,5 +144,4 @@ export {
   instagram,
   telegram,
   twitter,
-  card1,
 };
