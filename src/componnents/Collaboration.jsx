@@ -66,7 +66,6 @@ const Collaboration = () => {
                       height={app.height}
                       alt={app.title}
                       src={app.icon}
-                      src={app.icon}
                     ></img>
                   </div>
                 </li>
