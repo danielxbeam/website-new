@@ -62,7 +62,7 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className=" font-bold h4 mb-4">Photo Editing</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Brainwave unlocks the potential of AI-Powered apllications
+                  Brainwave unlocks the potential of AI-Powered apllicationsss
                 </p>
               </div>
               <PhotoChatMessage />
