@@ -101,7 +101,7 @@ const Hero = () => {
         </div>
 
         <CompanyLogos
-          className="hidden relative z-10 mt-20
+          className="hidden relative z-1 mt-20
         lg:block"
         />
       </div>
