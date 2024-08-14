@@ -45,7 +45,7 @@ const Hero = () => {
             efisiensi. Bersama kami, bangun masa depan bisnis konstruksi Anda!
           </p>
           <Button href="/pricing" white>
-            Contact Us
+            Contact Uss
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
