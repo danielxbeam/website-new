@@ -5,7 +5,7 @@ import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import shotcretecar from "../assets/shotcretecar.png";
+import Shotcretekm436 from "../assets/Shotcretekm436.jpg";
 import Generating from "../componnents/design/Generating";
 import Notification from "./design/Notification";
 import CompanyLogos from "./CompanyLogos";
@@ -26,11 +26,11 @@ const Hero = () => {
         mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6rem]"
         >
           <span className="inline-block mt-6 text-5xl relative">
-            ADHI FORTUNA DIVINA{" "}
+            ADHI FORTUNA DIVINA
             <img
               src={curve}
               className="absolute top-full left-0
-                w-full xl:mt-1"
+                w-full xl:mt-5"
               width={624}
               height={28}
               alt="Curve"
@@ -58,7 +58,7 @@ const Hero = () => {
            md:aspect-[688/490] lg:aspect-[1024/490]"
               >
                 <img
-                  src={shotcretecar}
+                  src={Shotcretekm436}
                   className="w-full scale-[1]
                   translate-y-[1%] md:scale-[1] md:-translate-y-[30%] lg:-translate-y-[30%]"
                   width={1024}
